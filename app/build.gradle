@@ -65,4 +65,10 @@ dependencies {
 
     implementation "androidx.compose.material:material-icons-extended:$compose_version"
 
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.21")
+
+    debugImplementation 'com.github.eastar-dev.EastarLog2:log:2.1.9'
+    releaseImplementation 'com.github.eastar-dev.EastarLog2:logNoOp:2.1.9'
+    testImplementation 'com.github.eastar-dev.EastarLog2:logTest:2.1.9'
+    androidTestImplementation 'com.github.eastar-dev.EastarLog2:log:2.1.9'
 }
